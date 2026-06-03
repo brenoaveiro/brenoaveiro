@@ -45,23 +45,6 @@ On the OSCP path — actively looking for a cybersecurity internship in the US.
 
 ---
 
-## Projects
-
-<div align="center">
-
-| Repository | Description | Stack |
-|:-----------|:------------|:-----:|
-| [ReconForge](https://github.com/brenoaveiro/ReconForge) | Personal recon framework — DNS, WHOIS, port scan, banner grab | `Python` |
-| [python-security-tools](https://github.com/brenoaveiro/python-security-tools) | Security automation scripts — scanners, parsers, hash tools | `Python` |
-| [bash-security-scripts](https://github.com/brenoaveiro/bash-security-scripts) | Linux automation, hardening audits and enumeration | `Bash` |
-| [pcap-analysis-labs](https://github.com/brenoaveiro/pcap-analysis-labs) | Network traffic analysis — Wireshark and Scapy labs | `Python` |
-| [offensive-security-writeups](https://github.com/brenoaveiro/offensive-security-writeups) | HTB and CTF writeups with methodology notes | `Markdown` |
-| [active-directory-security-lab](https://github.com/brenoaveiro/active-directory-security-lab) | AD enumeration and attack path research lab | `Python` |
-
-</div>
-
----
-
 ## Connect
 
 <div align="center">
