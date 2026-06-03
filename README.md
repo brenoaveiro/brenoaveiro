@@ -51,10 +51,8 @@ On the OSCP path — actively looking for a cybersecurity internship in the US.
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/brenoaveiro)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/breno-aveiro)
 [![GitHub](https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brenoaveiro)
-[![Email](https://img.shields.io/badge/Email-1a1a2e?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:brenoaveiro@hotmail.com)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-1a1a2e?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/profile/brenoaveiro)
 
 <br>
 
