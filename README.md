@@ -83,10 +83,6 @@ On the OSCP path — actively looking for a cybersecurity internship in the US.
 
 *"The quieter you become, the more you are able to hear."*
 
-<br>
-
-![Profile Views](https://komarev.com/ghpvc/?username=brenoaveiro&color=800000&style=flat-square&label=profile+views)
-
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1a0000,60:1a0000,100:0d1117&height=120&section=footer" />
