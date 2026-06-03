@@ -1,45 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="900" height="270" viewBox="0 0 900 270">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
   <defs>
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="55%">
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
       <stop offset="0%" stop-color="#3d0000" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
     </radialGradient>
   </defs>
-
   <style>
-    .ascii {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 13px;
-      text-anchor: middle;
-      fill: #cc1111;
-      animation: pulse 2.5s ease-in-out infinite;
-    }
+    .px { animation: pulse 2.5s ease-in-out infinite; }
     @keyframes pulse {
-      0%,100% { fill: #8b0000; opacity: 0.8; }
-      50%      { fill: #ff3333; opacity: 1;   }
+      0%,100% { fill: #8b0000; opacity: 0.85; }
+      50%      { fill: #ff4444; opacity: 1; }
     }
   </style>
 
-  <rect width="900" height="270" fill="#0d1117"/>
-  <rect width="900" height="270" fill="url(#bgGlow)"/>
+  <rect width="900" height="210" fill="#0d1117"/>
+  <rect width="900" height="210" fill="url(#glow)"/>
 
-  <!-- BRENO — 43 chars per row, textLength forçado para alinhar -->
-  <g class="ascii">
-    <text x="450" y="45"  textLength="387" lengthAdjust="spacingAndGlyphs">██████╗ ██████╗ ███████╗███╗   ██╗ ██████╗ </text>
-    <text x="450" y="62"  textLength="387" lengthAdjust="spacingAndGlyphs">██╔══██╗██╔══██╗██╔════╝████╗  ██║██╔═══██╗</text>
-    <text x="450" y="79"  textLength="387" lengthAdjust="spacingAndGlyphs">██████╔╝██████╔╝█████╗  ██╔██╗ ██║██║   ██║</text>
-    <text x="450" y="96"  textLength="387" lengthAdjust="spacingAndGlyphs">██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║██║   ██║</text>
-    <text x="450" y="113" textLength="387" lengthAdjust="spacingAndGlyphs">██████╔╝██║  ██║███████╗██║ ╚████║╚██████╔╝</text>
-    <text x="450" y="130" textLength="387" lengthAdjust="spacingAndGlyphs">╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ </text>
-  </g>
+  <!-- BRENO — pixel art, cell=8px, pixel=7x7, ly=30 -->
+  <!-- B lx=334 -->
+  <rect class="px" x="334" y="30" width="7" height="7"/><rect class="px" x="342" y="30" width="7" height="7"/><rect class="px" x="350" y="30" width="7" height="7"/><rect class="px" x="358" y="30" width="7" height="7"/>
+  <rect class="px" x="334" y="38" width="7" height="7"/><rect class="px" x="366" y="38" width="7" height="7"/>
+  <rect class="px" x="334" y="46" width="7" height="7"/><rect class="px" x="366" y="46" width="7" height="7"/>
+  <rect class="px" x="334" y="54" width="7" height="7"/><rect class="px" x="342" y="54" width="7" height="7"/><rect class="px" x="350" y="54" width="7" height="7"/><rect class="px" x="358" y="54" width="7" height="7"/>
+  <rect class="px" x="334" y="62" width="7" height="7"/><rect class="px" x="366" y="62" width="7" height="7"/>
+  <rect class="px" x="334" y="70" width="7" height="7"/><rect class="px" x="366" y="70" width="7" height="7"/>
+  <rect class="px" x="334" y="78" width="7" height="7"/><rect class="px" x="342" y="78" width="7" height="7"/><rect class="px" x="350" y="78" width="7" height="7"/><rect class="px" x="358" y="78" width="7" height="7"/>
 
-  <!-- AVEIRO — 45 chars por row, textLength proporcional -->
-  <g class="ascii">
-    <text x="450" y="160" textLength="405" lengthAdjust="spacingAndGlyphs"> █████╗ ██╗   ██╗███████╗██╗██████╗  ██████╗ </text>
-    <text x="450" y="177" textLength="405" lengthAdjust="spacingAndGlyphs">██╔══██╗██║   ██║██╔════╝██║██╔══██╗██╔═══██╗</text>
-    <text x="450" y="194" textLength="405" lengthAdjust="spacingAndGlyphs">███████║██║   ██║█████╗  ██║██████╔╝██║   ██║</text>
-    <text x="450" y="211" textLength="405" lengthAdjust="spacingAndGlyphs">██╔══██║╚██╗ ██╔╝██╔══╝  ██║██╔══██╗██║   ██║</text>
-    <text x="450" y="228" textLength="405" lengthAdjust="spacingAndGlyphs">██║  ██║ ╚████╔╝ ███████╗██║██║  ██║╚██████╔╝</text>
-    <text x="450" y="245" textLength="405" lengthAdjust="spacingAndGlyphs">╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝╚═╝  ╚═╝ ╚═════╝ </text>
-  </g>
+  <!-- R lx=382 -->
+  <rect class="px" x="382" y="30" width="7" height="7"/><rect class="px" x="390" y="30" width="7" height="7"/><rect class="px" x="398" y="30" width="7" height="7"/><rect class="px" x="406" y="30" width="7" height="7"/>
+  <rect class="px" x="382" y="38" width="7" height="7"/><rect class="px" x="414" y="38" width="7" height="7"/>
+  <rect class="px" x="382" y="46" width="7" height="7"/><rect class="px" x="414" y="46" width="7" height="7"/>
+  <rect class="px" x="382" y="54" width="7" height="7"/><rect class="px" x="390" y="54" width="7" height="7"/><rect class="px" x="398" y="54" width="7" height="7"/><rect class="px" x="406" y="54" width="7" height="7"/>
+  <rect class="px" x="382" y="62" width="7" height="7"/><rect class="px" x="390" y="62" width="7" height="7"/>
+  <rect class="px" x="382" y="70" width="7" height="7"/><rect class="px" x="398" y="70" width="7" height="7"/>
+  <rect class="px" x="382" y="78" width="7" height="7"/><rect class="px" x="406" y="78" width="7" height="7"/>
+
+  <!-- E lx=430 -->
+  <rect class="px" x="430" y="30" width="7" height="7"/><rect class="px" x="438" y="30" width="7" height="7"/><rect class="px" x="446" y="30" width="7" height="7"/><rect class="px" x="454" y="30" width="7" height="7"/><rect class="px" x="462" y="30" width="7" height="7"/>
+  <rect class="px" x="430" y="38" width="7" height="7"/>
+  <rect class="px" x="430" y="46" width="7" height="7"/>
+  <rect class="px" x="430" y="54" width="7" height="7"/><rect class="px" x="438" y="54" width="7" height="7"/><rect class="px" x="446" y="54" width="7" height="7"/><rect class="px" x="454" y="54" width="7" height="7"/>
+  <rect class="px" x="430" y="62" width="7" height="7"/>
+  <rect class="px" x="430" y="70" width="7" height="7"/>
+  <rect class="px" x="430" y="78" width="7" height="7"/><rect class="px" x="438" y="78" width="7" height="7"/><rect class="px" x="446" y="78" width="7" height="7"/><rect class="px" x="454" y="78" width="7" height="7"/><rect class="px" x="462" y="78" width="7" height="7"/>
+
+  <!-- N lx=478 -->
+  <rect class="px" x="478" y="30" width="7" height="7"/><rect class="px" x="510" y="30" width="7" height="7"/>
+  <rect class="px" x="478" y="38" width="7" height="7"/><rect class="px" x="486" y="38" width="7" height="7"/><rect class="px" x="510" y="38" width="7" height="7"/>
+  <rect class="px" x="478" y="46" width="7" height="7"/><rect class="px" x="494" y="46" width="7" height="7"/><rect class="px" x="510" y="46" width="7" height="7"/>
+  <rect class="px" x="478" y="54" width="7" height="7"/><rect class="px" x="502" y="54" width="7" height="7"/><rect class="px" x="510" y="54" width="7" height="7"/>
+  <rect class="px" x="478" y="62" width="7" height="7"/><rect class="px" x="510" y="62" width="7" height="7"/>
+  <rect class="px" x="478" y="70" width="7" height="7"/><rect class="px" x="510" y="70" width="7" height="7"/>
+  <rect class="px" x="478" y="78" width="7" height="7"/><rect class="px" x="510" y="78" width="7" height="7"/>
+
+  <!-- O lx=526 -->
+  <rect class="px" x="534" y="30" width="7" height="7"/><rect class="px" x="542" y="30" width="7" height="7"/><rect class="px" x="550" y="30" width="7" height="7"/>
+  <rect class="px" x="526" y="38" width="7" height="7"/><rect class="px" x="558" y="38" width="7" height="7"/>
+  <rect class="px" x="526" y="46" width="7" height="7"/><rect class="px" x="558" y="46" width="7" height="7"/>
+  <rect class="px" x="526" y="54" width="7" height="7"/><rect class="px" x="558" y="54" width="7" height="7"/>
+  <rect class="px" x="526" y="62" width="7" height="7"/><rect class="px" x="558" y="62" width="7" height="7"/>
+  <rect class="px" x="526" y="70" width="7" height="7"/><rect class="px" x="558" y="70" width="7" height="7"/>
+  <rect class="px" x="534" y="78" width="7" height="7"/><rect class="px" x="542" y="78" width="7" height="7"/><rect class="px" x="550" y="78" width="7" height="7"/>
+
+  <!-- AVEIRO — ly=118 -->
+  <!-- A lx=310 -->
+  <rect class="px" x="318" y="118" width="7" height="7"/><rect class="px" x="326" y="118" width="7" height="7"/><rect class="px" x="334" y="118" width="7" height="7"/>
+  <rect class="px" x="310" y="126" width="7" height="7"/><rect class="px" x="342" y="126" width="7" height="7"/>
+  <rect class="px" x="310" y="134" width="7" height="7"/><rect class="px" x="342" y="134" width="7" height="7"/>
+  <rect class="px" x="310" y="142" width="7" height="7"/><rect class="px" x="318" y="142" width="7" height="7"/><rect class="px" x="326" y="142" width="7" height="7"/><rect class="px" x="334" y="142" width="7" height="7"/><rect class="px" x="342" y="142" width="7" height="7"/>
+  <rect class="px" x="310" y="150" width="7" height="7"/><rect class="px" x="342" y="150" width="7" height="7"/>
+  <rect class="px" x="310" y="158" width="7" height="7"/><rect class="px" x="342" y="158" width="7" height="7"/>
+  <rect class="px" x="310" y="166" width="7" height="7"/><rect class="px" x="342" y="166" width="7" height="7"/>
+
+  <!-- V lx=358 -->
+  <rect class="px" x="358" y="118" width="7" height="7"/><rect class="px" x="390" y="118" width="7" height="7"/>
+  <rect class="px" x="358" y="126" width="7" height="7"/><rect class="px" x="390" y="126" width="7" height="7"/>
+  <rect class="px" x="358" y="134" width="7" height="7"/><rect class="px" x="390" y="134" width="7" height="7"/>
+  <rect class="px" x="366" y="142" width="7" height="7"/><rect class="px" x="382" y="142" width="7" height="7"/>
+  <rect class="px" x="366" y="150" width="7" height="7"/><rect class="px" x="382" y="150" width="7" height="7"/>
+  <rect class="px" x="374" y="158" width="7" height="7"/>
+  <rect class="px" x="374" y="166" width="7" height="7"/>
+
+  <!-- E lx=406 -->
+  <rect class="px" x="406" y="118" width="7" height="7"/><rect class="px" x="414" y="118" width="7" height="7"/><rect class="px" x="422" y="118" width="7" height="7"/><rect class="px" x="430" y="118" width="7" height="7"/><rect class="px" x="438" y="118" width="7" height="7"/>
+  <rect class="px" x="406" y="126" width="7" height="7"/>
+  <rect class="px" x="406" y="134" width="7" height="7"/>
+  <rect class="px" x="406" y="142" width="7" height="7"/><rect class="px" x="414" y="142" width="7" height="7"/><rect class="px" x="422" y="142" width="7" height="7"/><rect class="px" x="430" y="142" width="7" height="7"/>
+  <rect class="px" x="406" y="150" width="7" height="7"/>
+  <rect class="px" x="406" y="158" width="7" height="7"/>
+  <rect class="px" x="406" y="166" width="7" height="7"/><rect class="px" x="414" y="166" width="7" height="7"/><rect class="px" x="422" y="166" width="7" height="7"/><rect class="px" x="430" y="166" width="7" height="7"/><rect class="px" x="438" y="166" width="7" height="7"/>
+
+  <!-- I lx=454 -->
+  <rect class="px" x="454" y="118" width="7" height="7"/><rect class="px" x="462" y="118" width="7" height="7"/><rect class="px" x="470" y="118" width="7" height="7"/><rect class="px" x="478" y="118" width="7" height="7"/><rect class="px" x="486" y="118" width="7" height="7"/>
+  <rect class="px" x="470" y="126" width="7" height="7"/>
+  <rect class="px" x="470" y="134" width="7" height="7"/>
+  <rect class="px" x="470" y="142" width="7" height="7"/>
+  <rect class="px" x="470" y="150" width="7" height="7"/>
+  <rect class="px" x="470" y="158" width="7" height="7"/>
+  <rect class="px" x="454" y="166" width="7" height="7"/><rect class="px" x="462" y="166" width="7" height="7"/><rect class="px" x="470" y="166" width="7" height="7"/><rect class="px" x="478" y="166" width="7" height="7"/><rect class="px" x="486" y="166" width="7" height="7"/>
+
+  <!-- R lx=502 -->
+  <rect class="px" x="502" y="118" width="7" height="7"/><rect class="px" x="510" y="118" width="7" height="7"/><rect class="px" x="518" y="118" width="7" height="7"/><rect class="px" x="526" y="118" width="7" height="7"/>
+  <rect class="px" x="502" y="126" width="7" height="7"/><rect class="px" x="534" y="126" width="7" height="7"/>
+  <rect class="px" x="502" y="134" width="7" height="7"/><rect class="px" x="534" y="134" width="7" height="7"/>
+  <rect class="px" x="502" y="142" width="7" height="7"/><rect class="px" x="510" y="142" width="7" height="7"/><rect class="px" x="518" y="142" width="7" height="7"/><rect class="px" x="526" y="142" width="7" height="7"/>
+  <rect class="px" x="502" y="150" width="7" height="7"/><rect class="px" x="510" y="150" width="7" height="7"/>
+  <rect class="px" x="502" y="158" width="7" height="7"/><rect class="px" x="518" y="158" width="7" height="7"/>
+  <rect class="px" x="502" y="166" width="7" height="7"/><rect class="px" x="526" y="166" width="7" height="7"/>
+
+  <!-- O lx=550 -->
+  <rect class="px" x="558" y="118" width="7" height="7"/><rect class="px" x="566" y="118" width="7" height="7"/><rect class="px" x="574" y="118" width="7" height="7"/>
+  <rect class="px" x="550" y="126" width="7" height="7"/><rect class="px" x="582" y="126" width="7" height="7"/>
+  <rect class="px" x="550" y="134" width="7" height="7"/><rect class="px" x="582" y="134" width="7" height="7"/>
+  <rect class="px" x="550" y="142" width="7" height="7"/><rect class="px" x="582" y="142" width="7" height="7"/>
+  <rect class="px" x="550" y="150" width="7" height="7"/><rect class="px" x="582" y="150" width="7" height="7"/>
+  <rect class="px" x="550" y="158" width="7" height="7"/><rect class="px" x="582" y="158" width="7" height="7"/>
+  <rect class="px" x="558" y="166" width="7" height="7"/><rect class="px" x="566" y="166" width="7" height="7"/><rect class="px" x="574" y="166" width="7" height="7"/>
+
 </svg>
