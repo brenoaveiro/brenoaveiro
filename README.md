@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1a0000,60:1a0000,100:0d1117&height=220&section=header&text=BRENO%20AVEIRO&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Offensive%20Security%20%7C%20Pentest%20%7C%20Python&descAlignY=60&descSize=20&descColor=555555" />
+<img width="100%" src="./banner.svg" />
 
 <br>
 
