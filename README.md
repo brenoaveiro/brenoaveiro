@@ -1,51 +1,18 @@
 <div align="center">
 
-```
-██████╗ ██████╗ ███████╗███╗   ██╗ ██████╗
-██╔══██╗██╔══██╗██╔════╝████╗  ██║██╔═══██╗
-██████╔╝██████╔╝█████╗  ██╔██╗ ██║██║   ██║
-██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║██║   ██║
-██████╔╝██║  ██║███████╗██║ ╚████║╚██████╔╝
-╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝
-```
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6B0000,100:0d1117&height=220&section=header&text=BRENO%20AVEIRO&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Offensive%20Security%20%7C%20Python%20%7C%20Linux%20%7C%20CTF&descAlignY=58&descSize=22&descColor=ff8888" />
 
-**Offensive Security | Python | Linux | CTF**
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Cybersecurity+Student;Offensive+Security+%7C+Pentest;Python+Security+Tools;CTF+%7C+HTB+%7C+OSCP+path)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=FF4444&center=true&vCenter=true&width=600&lines=Offensive+Security+%7C+Pentest;Python+Security+Tools;CTF+%7C+HTB+%7C+OSCP+path)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## About Me
+## About
 
-```python
-class BrenoAveiro:
-    def __init__(self):
-        self.name       = "Breno Machado Aveiro Imbuzeiro"
-        self.role       = "Cybersecurity Student"
-        self.focus      = ["Offensive Security", "Web Pentest", "Network Analysis"]
-        self.platforms  = ["HackTheBox", "TryHackMe", "CTF Competitions"]
-        self.goal       = "OSCP | Red Team Operations"
-        self.location   = "Brazil → USA (seeking internship)"
-
-    def current_mission(self):
-        return "Building real tools. Breaking things legally. Learning every day."
-```
-
----
-
-## Current Focus
-
-| Area | Status |
-|------|--------|
-| Offensive Security Fundamentals | Active |
-| Web Application Pentest | Active |
-| Python Security Tooling | Building |
-| Linux & Bash Scripting | Active |
-| Active Directory Attacks | Studying |
-| Network Traffic Analysis | Active |
-| CTF / HTB Labs | Active |
+Focused on offensive security, web penetration testing, and Python security tooling.
+Building through HackTheBox, CTFs, and hands-on labs.
+On the OSCP path — actively looking for a cybersecurity internship in the US.
 
 ---
 
@@ -64,7 +31,6 @@ class BrenoAveiro:
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=nmap&logoColor=white)
 
 **Environment & Infra**
 
@@ -77,42 +43,18 @@ class BrenoAveiro:
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=brenoaveiro&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=brenoaveiro&layout=compact&theme=radical&hide_border=true" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=brenoaveiro&theme=radical&hide_border=true" />
-
-</div>
-
----
-
 ## Featured Projects
 
 > Active repositories — tools built for learning, practice, and real-world application.
 
 | Repository | Description | Stack |
 |------------|-------------|-------|
-| [ReconForge](./ReconForge) | Personal recon framework — DNS, WHOIS, port scan, banner grab | Python |
-| [python-security-tools](./python-security-tools) | Small security automation tools | Python |
-| [bash-security-scripts](./bash-security-scripts) | Linux automation, hardening and enumeration | Bash |
-| [pcap-analysis-labs](./pcap-analysis-labs) | Network traffic analysis labs with Wireshark | Python / PCAP |
-| [offensive-security-writeups](./offensive-security-writeups) | HTB / CTF writeups and methodology notes | Markdown |
-| [active-directory-security-lab](./active-directory-security-lab) | AD enumeration and attack path research | Python / PowerShell |
-
----
-
-## Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=brenoaveiro&theme=redical&hide_border=true&area=true" />
-</div>
+| [ReconForge](https://github.com/brenoaveiro/ReconForge) | Personal recon framework — DNS, WHOIS, port scan, banner grab | Python |
+| [python-security-tools](https://github.com/brenoaveiro/python-security-tools) | Small security automation tools | Python |
+| [bash-security-scripts](https://github.com/brenoaveiro/bash-security-scripts) | Linux automation, hardening and enumeration | Bash |
+| [pcap-analysis-labs](https://github.com/brenoaveiro/pcap-analysis-labs) | Network traffic analysis labs with Wireshark | Python / PCAP |
+| [offensive-security-writeups](https://github.com/brenoaveiro/offensive-security-writeups) | HTB / CTF writeups and methodology notes | Markdown |
+| [active-directory-security-lab](https://github.com/brenoaveiro/active-directory-security-lab) | AD enumeration and attack path research | Python / PowerShell |
 
 ---
 
@@ -136,3 +78,5 @@ class BrenoAveiro:
 ![Profile Views](https://komarev.com/ghpvc/?username=brenoaveiro&color=red&style=flat-square)
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6B0000,100:0d1117&height=120&section=footer" />
